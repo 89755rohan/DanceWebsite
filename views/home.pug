@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+     style
+      include ../static/style.css
+
+block content
+    section#introSection 
+      div#cnter 
+        div.cnter2
+            h1 Welcome to ALR Dance Academy
+            header Our New Batch is starting from 1 August <br>Registration is starting on 4 july and end on31july</br>So we are exited to teach you 
+            header APPLY NOW  
+            div#btn 
+                button.btn1 #[a(href="/apply") APPLY HERE]
+
+    section#Gallerysection 
+      div#cnter3
+        h1 Gallery 
+        div.g-images
+
+    section#Aboutsection 
+      |about us
+
+    section#Contactus
+      |contact us
+      

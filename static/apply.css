@@ -1,0 +1,40 @@
+#a-cnter{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0)),url(../static/img/bg3.jpg) no-repeat center;
+    background-size: cover;
+    /* justify-content: center; */
+    min-height: 595px;
+    align-items: center;
+}
+.fillings h1{
+    text-align: center;
+    align-items: center;
+    margin: 4px;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.fillings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 66vh;
+}
+.my-Input {
+    width: 50%;
+    padding: 5px;
+    margin:10px;
+    border-radius: 4px;
+}
+#a-btn{
+    margin-top: 11px;
+}
+/* .form{
+    background-color: #fff;
+    opacity: 0.3;
+} */
+.btn2{
+    padding: 7px 23px;
+    border-radius: 8px;
+    background-color: #ff82f2;
+    cursor: pointer;
+}

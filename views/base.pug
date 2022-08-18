@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title My Site - #{title}
+    block scripts
+    block style 
+  body
+        nav#navbar 
+            div#logo
+                img(src="../static/img/logo.jpg")
+                h1 ALR  
+
+                ul 
+                    li #[a(href="/") Home] 
+                    li #[a(href="/") Gallery]
+                    li #[a(href="/") About Us]
+                    li #[a(href="/") Contact Us]
+                    li #[a(href="/") Schedule Info]
+        block content
+        footer#footer 
+         div.cnter-n
+            h1 ALR Dance Academy.
+            p Copyright © 2022 ALR Dance Academy, Inc.

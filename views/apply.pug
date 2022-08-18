@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+     style
+      include ../static/style.css
+      include ../static/apply.css
+
+block content 
+    div#a-cnter
+        div.fillings 
+            h1 Application Form 
+            form(action="/apply", method="post") 
+            input(type="text", class="my-Input",name="Name",placeholder="Enter your Name")
+            input(type="email", class="my-Input",name="Email",placeholder="Enter your Email")
+            input(type="Phone", class="my-Input",name="Phone",placeholder="Enter your Phone number")
+            input(type="text", class="my-Input",name="Address",placeholder="Enter your Address")
+            input(type="text", class="my-Input",name="City",placeholder="Enter your City")
+            input(type="text", class="my-Input",name="State",placeholder="Enter your State")
+            div#a-btn 
+                button.btn2  Submit
